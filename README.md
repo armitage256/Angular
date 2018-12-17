@@ -14,4 +14,10 @@ Angular
 
     - npm install -g @angular/cli
 
-Vídeos
+Vídeos:
+
+- Consumindo API REST (Golang) com Angular 7
+
+    - source: https://github.com/armitage256/Angular/tree/master/video-24-30/src
+    
+    - video: 
