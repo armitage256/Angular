@@ -1,0 +1,10 @@
+<table>
+  <th>Nome</th>
+  <th>Email</th>
+  <th>Detalhes</th>
+  <tr *ngFor="let user of users">
+    <td> {{ user.name }} </td>
+    <td> {{ user.email }} </td>
+    <td> <a routerLink="/users/{{ user.id }}"> ver mais </a> </td>
+  </tr>
+</table>
